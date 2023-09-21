@@ -10,46 +10,46 @@ spec:
   owner: user:guest
   lifecycle: experimental
   system: process-mining
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: "pm-api"
-  annotations:
-    jenkins.io/job-full-name: 'PM'
-    gitlab.com/project-slug: 'gitlab/process-mining-api'
-spec:
-  type: service
-  owner: user:guest
-  lifecycle: experimental
-  system: process-mining
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: "pm-golang-api"
-  annotations:
-    jenkins.io/job-full-name: 'PM'
-    gitlab.com/project-slug: 'gitlab/process-mining-golang-api'
-spec:
-  type: service
-  owner: user:guest
-  lifecycle: experimental
-  system: process-mining
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: process-mining
-  description: process-mining
-spec:
-  owner: user:guest
-  domain: ML
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: AI
-  description: Everything about AI
-spec:
-  owner: user:guest
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: "pm-api"
+#   annotations:
+#     jenkins.io/job-full-name: 'PM'
+#     gitlab.com/project-slug: 'gitlab/process-mining-api'
+# spec:
+#   type: service
+#   owner: user:guest
+#   lifecycle: experimental
+#   system: process-mining
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: "pm-golang-api"
+#   annotations:
+#     jenkins.io/job-full-name: 'PM'
+#     gitlab.com/project-slug: 'gitlab/process-mining-golang-api'
+# spec:
+#   type: service
+#   owner: user:guest
+#   lifecycle: experimental
+#   system: process-mining
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: System
+# metadata:
+#   name: process-mining
+#   description: process-mining
+# spec:
+#   owner: user:guest
+#   domain: ML
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Domain
+# metadata:
+#   name: AI
+#   description: Everything about AI
+# spec:
+#   owner: user:guest
