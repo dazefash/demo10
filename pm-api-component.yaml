@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "pm-js-api1"
+  name: "pm-api"
   annotations:
     jenkins.io/job-full-name: 'PM'
     gitlab.com/project-slug: 'gitlab/process-mining-api'
