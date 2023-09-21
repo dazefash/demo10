@@ -9,4 +9,4 @@ spec:
     - ./pm-api-component.yaml
 #    - ./ai-domains.yaml
     - ./process-mining-systems.yaml
-    - ./pm-golang-api-component.yaml
+#    - ./pm-golang-api-component.yaml
