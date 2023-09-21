@@ -7,6 +7,6 @@ spec:
   targets:
     - ./pm-front-component.yaml
     - ./pm-api-component.yaml
-#     - ./AI-domains.yaml
+    - ./ai-domains.yaml
     - ./process-mining-systems.yaml
     - ./pm-golang-api-component.yaml
