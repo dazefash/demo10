@@ -9,4 +9,4 @@ spec:
   type: service
   owner: user:guest
   lifecycle: experimental
-  system: process-mining
+#  system: process-mining
