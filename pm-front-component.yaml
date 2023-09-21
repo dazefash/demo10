@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "pm-front"
+  annotations:
+    jenkins.io/job-full-name: 'PM'
+    gitlab.com/project-slug: 'gitlab/process-mining-front'
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+  system: process-mining
