@@ -7,6 +7,7 @@ metadata:
     gitlab.com/project-slug: 'gitlab/process-mining-api'
     backstage.io/kubernetes-namespace: 'backstage'
     backstage.io/kubernetes-id: 'hello-minikube'
+    backstage.io/kubernetes-label-selector: ''
 spec:
   type: service
   system: process-mining
