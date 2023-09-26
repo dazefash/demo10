@@ -5,8 +5,8 @@ metadata:
   annotations:
     jenkins.io/job-full-name: 'PM'
     gitlab.com/project-slug: 'gitlab/process-mining-api'
-    backstage.io/kubernetes-namespace: backstage
-    backstage.io/kubernetes-id: hello-minikube
+    backstage.io/kubernetes-namespace: 'backstage'
+    backstage.io/kubernetes-id: 'hello-minikube'
 spec:
   type: service
   system: process-mining
