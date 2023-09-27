@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "pm-golang-api"
   annotations:
-    jenkins.io/job-full-name: 'process-mining:golang-api'
+    jenkins.io/job-full-name: 'process-mining/golang-api'
     gitlab.com/project-slug: 'gitlab/process-mining-golang-api'
 spec:
   type: service
