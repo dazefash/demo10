@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "pm-api"
   annotations:
-    jenkins.io/job-full-name: 'process-mining:api'
+    jenkins.io/job-full-name: 'process-mining/api'
     gitlab.com/project-slug: 'gitlab/process-mining-api'
     backstage.io/kubernetes-namespace: 'backstage'
     backstage.io/kubernetes-id: 'hello-minikube'
